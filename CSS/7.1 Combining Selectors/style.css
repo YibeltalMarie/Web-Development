@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+/* grouping selector*/
+h1, h2 {
+  color: blueviolet;
+}
+
+/*child selector method*/
+.box > p {
+  color: firebrick;
+}
+
+/*descendent method (the element we want is the 'li' not '.box')*/
+.box li{
+  color: blue;
+}
+
+/*chaining method*/
+li.done {
+  color: seagreen;
+}
+
+/*combination of descendent and chaning selector together*/ 
+ul p.done {
+  color:red;
+}
