@@ -1,0 +1,37 @@
+h1 {
+  color: deeppink ;
+}
+
+.highlight {
+  color:blueviolet;
+}
+
+#products {
+  color: green;
+}
+
+.highlight#products {
+  color: rgb(0, 162, 255);
+}
+
+p {
+  color: white;
+}
+
+strong {
+  color: initial;
+  border: inherit;
+}
+
+html {
+  background:linear-gradient(to top,rgb(21, 21, 41),rgb(77, 3, 3),black)
+}
+
+img {
+  width:200px;
+  height:200px;
+  border-radius: 20px;
+  padding: 50px;
+  background: radial-gradient(rgb(97, 8, 55),black,blueviolet);
+  object-fit:cover;
+}
