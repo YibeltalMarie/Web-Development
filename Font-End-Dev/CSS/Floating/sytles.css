@@ -1,0 +1,27 @@
+
+.tweet {
+  border: 10px solid rgb(87, 79, 79);
+  /* overflow: hidden; */
+}
+
+.tweet::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+  background-color: gold;
+  float: left;
+  /* float: right; */
+  margin-right: 0.5rem;
+}
+
+/* clear: an attributes used to clear assign by float attribute, if 'float: left', set 'clear: left' it cancel it */
+.clear {
+  /* clear: left; */
+  /* clear: right; */
+  clear: both;
+}

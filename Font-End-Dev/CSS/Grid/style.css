@@ -1,0 +1,40 @@
+
+.container {
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  border: 10px solid lightgray;
+
+  /* justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center; */
+  gap: 10px;
+  grid-template-areas: 
+    "header header header"
+    "side-bar1 main1  main1"
+    "side-bar2 main2 main2"
+    "footer footer footer";
+
+}
+
+
+.box {
+  background-color: black;
+}
+
+.box-one {
+  grid-area: header;
+}
+
+.box-six {
+  grid-area: main1;
+}
+
+.box-nine {
+  grid-area: main2;
+}
+
+.box-last {
+  grid-area: footer;
+}

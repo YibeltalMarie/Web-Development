@@ -1,0 +1,17 @@
+
+
+.box::before {
+  content:"Yibeltal";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color:orange;
+  padding:20px 10px;
+  border:10px solid gold;
+  box-sizing: border-box;
+  display: inline-block;
+}

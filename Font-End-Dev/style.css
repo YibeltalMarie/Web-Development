@@ -1,0 +1,97 @@
+.header1 {
+  background-color: green;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+}
+nav a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  background-color: orangered;
+}
+
+.section1 {
+  background-color: gray;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.section1 h1 {
+  color: orange;
+}
+
+.section1 p {
+  color: white;
+}
+
+.section2 {
+  background-color: gray;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.section2 h1 {
+  color: orange;
+}
+
+.section3 {
+  background-color: gray;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.section3 nav {
+  background-color: gray;
+}
+
+.section4 form {
+  font-weight: bold;
+  color: orangered;
+}
+
+/* .Menu {
+  border-radius: 5px;
+  display: block;
+}
+.FirstMenu {
+  background-color: darkred;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.SecondMenu {
+  border-radius: 5px;
+  background-color: gold;
+  padding: 10px 10px;
+}
+
+.ThirdMenu {
+  border-radius: 5px;
+  background-color: orangered;
+  padding: 10px 10px;
+} */
+

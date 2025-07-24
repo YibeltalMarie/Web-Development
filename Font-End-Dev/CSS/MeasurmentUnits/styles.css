@@ -1,0 +1,20 @@
+
+html {
+  /* the default font-size browser gives to one html page is 16px( 62.5%= 62.5*16 */
+  font-size: 62.5%;
+}
+.body {
+  /* by default the height of the body is zero. */
+}
+.box {
+  /* '%': use to measure relative to the part element now from the 'body' element */
+  /* 'vw': stands for 'viewport width', it measures relative to the viewport width */
+  /* 'vh': stands for 'viewport height', it measures relative to the viewport height */
+  /* 'em': measures relative to the font-size of the current element.  */
+  /* 'rem': measures relative to the font-size of the root element(by default 16px)
+  : when the font-size of the current element is not given, it uses the default font-size or now like the above html font-size(by adjusting it) */
+  width: 20rem;
+  height: 20rem;
+  border: 5px solid orange;
+  background-color: gold;
+}

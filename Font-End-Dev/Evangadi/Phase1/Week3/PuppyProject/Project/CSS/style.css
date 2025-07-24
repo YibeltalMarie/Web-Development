@@ -1,0 +1,60 @@
+img {
+  max-width: 100%;
+}
+.head1 {
+  background-color: darkcyan;
+  padding: 2px;
+  text-align: center;
+  color: white;
+}
+
+.section1 {
+  width: 100vw;
+  height: auto;
+}
+
+.firstImage img{
+  width:
+}
+
+.section2 {
+  display: flex;
+  margin: 70px;
+}
+
+.image2 img{
+  height: 200px;
+}
+.image3 img {
+  width: 200px;
+}
+.textBox {
+  background-color: red;
+  padding: 0 50px 0 50px;
+  height:200px;
+  margin: 0 10px 0 10px;
+}
+
+
+.section3 .images {
+  display: flex;
+  margin: 70px;
+}
+
+.section3 h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.image4 img {
+  height: 310px;
+  margin: 0 30px;
+}
+.foot {
+  background-color: darkcyan;
+  padding: 60px;
+  text-align: center;
+  color: white;
+}
+

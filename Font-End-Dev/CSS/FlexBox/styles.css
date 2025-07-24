@@ -1,0 +1,74 @@
+
+.containter {
+  border: 0.5rem solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: flex-end; */
+  /* justify-content: flex-start; */
+ 
+  /*
+  justify-content: space-between;
+    - it gives equal space between items and first and last items start from the edge of the container, no space given here
+  */
+  /*
+  justify-content: space-around;
+    - it gives half space to the first last items from the edge and equal space between items(double of the space between edge and first/last items 
+  */
+  /* justify-content: space-evenly;
+      - it gives equal space from edge to item and between items */
+  /* flex-wrap: wrap; */
+  align-items: center;
+/*   
+  align-items: flex-start;
+  align-items: flex-end; */
+  /* align-items: stretch; */
+  /* align-items: baseline; */
+  height: 90vh;
+}
+
+.items {
+  flex-basis:10rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  /* flex: 1 1 ; */
+  width: 10rem;
+  height: 10rem;
+  background-color: orangered;
+  margin: 0.5rem;
+}
+
+.item-one {
+  /* align-self: 
+  center; */
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color: darkred;
+}
+
+.item-two {
+  /* flex-shrink: 0; */
+  flex-grow: 0;
+  flex-shrink: 0;
+  /* align-self: flex-start; */
+  background-color: darkorange;
+}
+
+.item-three {
+  flex-shrink: 0;
+  /* align-self: flex-end; */
+  /* flex-grow: 0; */
+  background-color: dodgerblue;
+  flex-wrap:wrap-reverse;
+}
+
+.item-four {
+  /* align-self: flex-start; */
+  background-color: darkgreen;
+}  
+
+/*
+.item-five {
+  align-self: flex-end;
+  background-color: darksalmon;
+} */

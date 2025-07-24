@@ -1,0 +1,61 @@
+
+.container {
+  height: 80vh;
+  width: 80vh;
+  background-color: white;
+  display: grid;
+
+  /* row-gap: 10px;
+    - It's used when we want to give a gap between rows in the gird */
+  /* column-gap: 10px; 
+    - It's used when we want to give a gap between columns in the gird */
+  gap: 10px 20px;
+  /* gap: 10px 20px; 
+    - It's used to give a gap between for both rows and columns with a single line of code without needing to implictly type for each of them
+    - gap: 10px; it's give a gap of 10px between for each rows and columns */
+  grid-template-rows: 100px auto 100px;
+  grid-template-columns: 100px 30fr 70fr;
+  /* grid-template: repeat(3, 100px) / repeat(2, 100px); 
+  - it's a short-hand notation of 'grid-template-rows' and grid-template-columns' 
+  */
+
+  grid-template-areas: 
+   "header   header  header"
+   "side-bar main    main" 
+   "footer   footer  footer";
+  border: 10px solid lightgray;
+  /* justify-items: value; 
+    - value: can be 'stretch(default value)', 'center', 'start', 'end'
+    - it's used to align items(boxes) in the gird to the horizontal side as want to ( center/start/end/ from the horizontal) 
+    - and by using 'stretch', to fit the space provide by stretching as much available space we have
+     */
+  /* align-items: value; 
+    - it's the same as the above attributes
+    - But it uses to align items( boxex ) in the vertical side */
+  /* justify-content: value;
+    - value can be 'center', 'start', 'end'
+    - it uses to align the entire grid horizontally instead of aligning each items (boxex)
+    - e.g justify-content: center;  this aligns the entire gird to center horizontally */
+  /* align-content: value;
+    - It's the same as the 'justify-content'
+    /* - But it uses to align the entire gird vertically */
+    /* justify-items: center;
+    align-items: center; */
+    justify-content: center;
+} 
+
+.box {
+  background-color: gold;
+}
+ 
+.box-one {
+  grid-area: header;
+}
+
+.box-three {
+  grid-area: main;
+}
+
+.box-four  {
+  grid-area: footer;
+}

@@ -1,0 +1,35 @@
+body {
+  margin: 20px;
+  height: 200vh;
+}
+.boxes {
+  border: 5px solid lightgray;
+  position: relative;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+}
+
+.box-one {
+  background-color: orange;
+  position: fixed;
+}
+.box-two {
+  background-color: darkblue;
+  position: relative;
+  left: 10rem;
+  /* bottom: 7rem; */
+  z-index: -1;
+  /* left: -5rem; */
+  /* right: 5rem; */
+  /* bottom: 10rem; */
+
+}
+.box-three {
+  background-color: darkred;
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+}
